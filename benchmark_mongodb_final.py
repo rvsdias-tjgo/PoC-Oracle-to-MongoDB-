@@ -27,8 +27,6 @@ CSV_FILE = "benchmark_mongodb_final2.csv"
 def get_consultas(db, collection):
     col = db[collection]
     return [
-
-        # Q01 — DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data
         {
             "id":       "Q01",
             "descricao":"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",
@@ -73,8 +71,6 @@ def get_consultas(db, collection):
                 }}
             ], allowDiskUse=True))
         },
-
-        # Q02 — COUNT simples com filtro de data
        {
             "id":       "Q02",
             "descricao":"COUNT simples com filtro de data (Limitado a 25M)",
@@ -84,8 +80,6 @@ def get_consultas(db, collection):
                 {"$count": "total"}
             ]))
         },
-
-        # Q03 — SELECT com range de data de 6 meses (até junho — igual ao Oracle)
         {
             "id":       "Q03",
             "descricao":"SELECT com range de data de 6 meses (jan a jun) (Limitado a 25M)",
@@ -96,9 +90,6 @@ def get_consultas(db, collection):
                              "IP_COMPUTADOR": 1, "DATA": 1, "TABELA": 1}}
             ], allowDiskUse=True))
         },
-
-
-        # Q04 — Filtro por ID_USU
         {
             "id":       "Q04",
             "descricao":"Filtro por ID_USU (Limitado a 25M)",
@@ -112,8 +103,6 @@ def get_consultas(db, collection):
                              "IP_COMPUTADOR": 1, "DATA": 1, "TABELA": 1, "VALOR_ATUAL": 1}}
             ], allowDiskUse=True))
         },
-
-        # Q05 — Filtro por IP_COMPUTADOR
         {
             "id":       "Q05",
             "descricao":"Filtro por IP_COMPUTADOR (Limitado a 25M)",
@@ -127,8 +116,6 @@ def get_consultas(db, collection):
                              "DATA": 1, "TABELA": 1, "VALOR_ATUAL": 1}}
             ], allowDiskUse=True))
         },
-
-        # Q06 — Filtro por TABELA
         {
             "id":       "Q06",
             "descricao":"Filtro por campo TABELA (Limitado a 25M)",
@@ -144,8 +131,6 @@ def get_consultas(db, collection):
                 }}
             ], allowDiskUse=True))
         },
-
-        # Q07 — Busca por nome do tipo de log (desnormalizado)
         {
             "id":       "Q07",
             "descricao":"Filtro por nome do tipo de log (log_tipo_detalhes) (Limitado a 25M)",
@@ -161,8 +146,6 @@ def get_consultas(db, collection):
                 }}
             ], allowDiskUse=True))
         },
-
-        # Q08 — Busca por Id_Arquivo em valor_novo_detalhes
         {
             "id":       "Q07",
             "descricao":"Filtro por nome do tipo de log (log_tipo_detalhes) (Limitado a 25M)",
@@ -178,8 +161,6 @@ def get_consultas(db, collection):
                 }}
             ], allowDiskUse=True))
         },
-
-        # Q09 — Filtro composto: data + id_log_tipo + tabela
         {
             "id":       "Q07",
             "descricao":"Filtro por nome do tipo de log (log_tipo_detalhes) (Limitado a 25M)",
@@ -195,8 +176,6 @@ def get_consultas(db, collection):
                 }}
             ], allowDiskUse=True))
         },
-
-        # Q10 — Agregação: COUNT por IP_COMPUTADOR
         {
             "id":       "Q10",
             "descricao":"Agregacao COUNT por IP_COMPUTADOR (Limitado a 25M)",
@@ -208,15 +187,7 @@ def get_consultas(db, collection):
             ], allowDiskUse=True))
         },
     ]
-
-# ============================================================================
-# FUNÇÕES
-# ============================================================================
-
-def log(msg):
-    print(f"[{time.strftime('%H:%M:%S')}] {msg}", flush=True)
-
-
+    
 def benchmark_consulta(consulta, volume, collection, writer, todos_resultados):
     tempos = []
 
@@ -227,7 +198,6 @@ def benchmark_consulta(consulta, volume, collection, writer, todos_resultados):
             tempo  = time.perf_counter() - t0
             qtd    = len(result)
         except Exception as e:
-            log(f"  ERRO {consulta['id']} exec {i}: {e}")
             tempo, qtd = 0, 0
 
         tempos.append(tempo)
@@ -272,13 +242,10 @@ def main():
     print(f"  Inicio: {time.strftime('%d/%m/%Y %H:%M:%S')}")
     print("=" * 70)
 
-    log("Conectando ao MongoDB...")
     try:
         client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=5000)
         client.server_info()
-        log("Conexao OK")
     except Exception as e:
-        log(f"ERRO: {e}")
         sys.exit(1)
 
     db               = client[DATABASE]
