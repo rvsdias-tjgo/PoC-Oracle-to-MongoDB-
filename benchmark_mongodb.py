@@ -7,7 +7,7 @@ import time
 import sys
 
 
-MONGO_URI  = "mongodb://admin:senha123@localhost:27017/"
+MONGO_URI  = ""
 DATABASE   = "benchmark"
 EXECUCOES  = 7
 
@@ -22,7 +22,7 @@ DATA_FIM      = datetime(2025, 3, 1, 0, 0, 0)
 DATA_FIM_6M   = datetime(2025, 6, 1, 0, 0, 0)   
 IDS_LOG_TIPO  = [96, 117]
 
-CSV_FILE = "benchmark_mongodb_final2.csv"
+CSV_FILE = "benchmark_mongodb_final.csv"
 
 def get_consultas(db, collection):
     col = db[collection]
