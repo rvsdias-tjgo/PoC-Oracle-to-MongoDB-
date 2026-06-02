@@ -417,7 +417,7 @@ Tabela contendo:
 
 # Considerações
 
-As consultas foram projetadas para representar cenários reais de auditoria de sistemas, contemplando:
+As consultas foram projetadas para representar cenários reais, contemplando:
 
 * Filtros simples
 * Filtros compostos
