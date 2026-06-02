@@ -403,18 +403,6 @@ Contar a quantidade de registros por dia.
 ]
 ```
 
-### Resultado
-
-Tabela contendo:
-
-| Dia        | Quantidade de Registros |
-| ---------- | ----------------------- |
-| 2025-01-01 | N                       |
-| 2025-01-02 | N                       |
-| ...        | ...                     |
-
----
-
 # Considerações
 
 As consultas foram projetadas para representar cenários reais, contemplando:
