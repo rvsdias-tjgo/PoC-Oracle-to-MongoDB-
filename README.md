@@ -1,4 +1,4 @@
-# PoC de Performance — Oracle Database vs MongoDB
+# PoC — Oracle Database vs MongoDB
 
 ## Objetivo
 
