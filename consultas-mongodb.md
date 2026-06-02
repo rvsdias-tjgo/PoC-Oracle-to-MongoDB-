@@ -1,4 +1,4 @@
-# Benchmark de Consultas MongoDB
+# Consultas MongoDB
 
 ## Objetivo
 
