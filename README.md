@@ -12,7 +12,7 @@ Os testes foram executados utilizando conjuntos de dados equivalentes contendo a
 | Médio   | 10 milhões              |
 | Grande  | 50 milhões              |
 
-O foco da avaliação é analisar o comportamento de cada banco de dados em operações frequentemente utilizadas em sistemas corporativos, como:
+O foco da avaliação é analisar o comportamento de cada banco de dados em operações utilizadas, como:
 
 * Consultas por filtros simples
 * Consultas por filtros compostos
