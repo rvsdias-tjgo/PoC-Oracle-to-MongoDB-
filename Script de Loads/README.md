@@ -73,7 +73,6 @@ Exemplos:
 log_tipo.csv
 log_2025_3m.csv
 log_2025_10m.csv
-log_2025_50m.csv
 ```
 
 ---
@@ -134,7 +133,7 @@ NULL
 ## Execução
 
 ```bash
-python load-into-mongodb.py
+python script-load-mongodb.py
 ```
 
 ## Características
@@ -154,7 +153,6 @@ Exemplo de collections utilizadas:
 logs_tipo
 logs_3m
 logs_10m
-logs_50m
 ```
 
 ## Índices Criados
@@ -193,7 +191,7 @@ Também é exibido um resumo contendo:
 ## Execução
 
 ```bash
-python load-into-oracle.py
+python script-load-oracle.py
 ```
 
 ## Características
@@ -212,7 +210,6 @@ Exemplo:
 ```text
 LOG_2025_3M
 LOG_2025_10M
-LOG_2025_50M
 ```
 
 ## Inserção em Massa
