@@ -17,7 +17,7 @@ Os scripts deste diretório executam tarefas de:
 # Estrutura
 
 ```text
-update/
+Scripts de Update/
 ├── denormalize_log_tipo.py
 └── update_valor_novo_detalhes.py
 ```
