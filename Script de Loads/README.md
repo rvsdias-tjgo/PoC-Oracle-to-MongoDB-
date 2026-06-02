@@ -21,8 +21,8 @@ O processo contempla:
 
 ```text
 load/
-├── load-into-mongodb.py
-└── load-into-oracle.py
+├── script-load-mongodb.py
+└── script-load-oracle.py
 ```
 
 ---
