@@ -20,7 +20,7 @@ O processo contempla:
 # Estrutura
 
 ```text
-load/
+Script de Loads/
 ├── script-load-mongodb.py
 └── script-load-oracle.py
 ```
