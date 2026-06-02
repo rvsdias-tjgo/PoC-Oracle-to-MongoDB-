@@ -1,4 +1,4 @@
-# Benchmark de Consultas Oracle
+# Consultas Oracle
 
 ## Objetivo
 
