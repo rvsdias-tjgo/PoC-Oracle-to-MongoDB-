@@ -1,0 +1,281 @@
+banco,volume,collection,consulta_id,descricao,execucao,tempo_s,documentos
+MongoDB,3M,logs_3m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",1,7.195949,46907
+MongoDB,3M,logs_3m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",2,0.33286,46907
+MongoDB,3M,logs_3m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",3,0.321269,46907
+MongoDB,3M,logs_3m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",4,0.328448,46907
+MongoDB,3M,logs_3m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",5,0.319356,46907
+MongoDB,3M,logs_3m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",6,0.303993,46907
+MongoDB,3M,logs_3m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",7,0.292099,46907
+MongoDB,3M,logs_3m,Q02,COUNT simples com filtro de data (Limitado a 25M),1,0.258765,1
+MongoDB,3M,logs_3m,Q02,COUNT simples com filtro de data (Limitado a 25M),2,0.191715,1
+MongoDB,3M,logs_3m,Q02,COUNT simples com filtro de data (Limitado a 25M),3,0.194348,1
+MongoDB,3M,logs_3m,Q02,COUNT simples com filtro de data (Limitado a 25M),4,0.191386,1
+MongoDB,3M,logs_3m,Q02,COUNT simples com filtro de data (Limitado a 25M),5,0.193244,1
+MongoDB,3M,logs_3m,Q02,COUNT simples com filtro de data (Limitado a 25M),6,0.191394,1
+MongoDB,3M,logs_3m,Q02,COUNT simples com filtro de data (Limitado a 25M),7,0.191754,1
+MongoDB,3M,logs_3m,Q03,Filtro por ID_USU (Limitado a 25M),1,1.657673,240012
+MongoDB,3M,logs_3m,Q03,Filtro por ID_USU (Limitado a 25M),2,0.943732,240012
+MongoDB,3M,logs_3m,Q03,Filtro por ID_USU (Limitado a 25M),3,0.878594,240012
+MongoDB,3M,logs_3m,Q03,Filtro por ID_USU (Limitado a 25M),4,1.005207,240012
+MongoDB,3M,logs_3m,Q03,Filtro por ID_USU (Limitado a 25M),5,0.992418,240012
+MongoDB,3M,logs_3m,Q03,Filtro por ID_USU (Limitado a 25M),6,0.916563,240012
+MongoDB,3M,logs_3m,Q03,Filtro por ID_USU (Limitado a 25M),7,0.959898,240012
+MongoDB,3M,logs_3m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),1,2.349356,158268
+MongoDB,3M,logs_3m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),2,0.324351,158268
+MongoDB,3M,logs_3m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),3,0.313472,158268
+MongoDB,3M,logs_3m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),4,0.296938,158268
+MongoDB,3M,logs_3m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),5,0.317826,158268
+MongoDB,3M,logs_3m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),6,0.293593,158268
+MongoDB,3M,logs_3m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),7,0.317705,158268
+MongoDB,3M,logs_3m,Q05,Filtro composto: data + id_log_tipo + tabela,1,0.087788,0
+MongoDB,3M,logs_3m,Q05,Filtro composto: data + id_log_tipo + tabela,2,0.085095,0
+MongoDB,3M,logs_3m,Q05,Filtro composto: data + id_log_tipo + tabela,3,0.088463,0
+MongoDB,3M,logs_3m,Q05,Filtro composto: data + id_log_tipo + tabela,4,0.086259,0
+MongoDB,3M,logs_3m,Q05,Filtro composto: data + id_log_tipo + tabela,5,0.084537,0
+MongoDB,3M,logs_3m,Q05,Filtro composto: data + id_log_tipo + tabela,6,0.085984,0
+MongoDB,3M,logs_3m,Q05,Filtro composto: data + id_log_tipo + tabela,7,0.085336,0
+MongoDB,3M,logs_3m,Q6,Agregacao COUNT por IP_COMPUTADOR,1,0.750602,68921
+MongoDB,3M,logs_3m,Q6,Agregacao COUNT por IP_COMPUTADOR,2,0.642046,68921
+MongoDB,3M,logs_3m,Q6,Agregacao COUNT por IP_COMPUTADOR,3,0.640158,68921
+MongoDB,3M,logs_3m,Q6,Agregacao COUNT por IP_COMPUTADOR,4,0.625585,68921
+MongoDB,3M,logs_3m,Q6,Agregacao COUNT por IP_COMPUTADOR,5,0.627553,68921
+MongoDB,3M,logs_3m,Q6,Agregacao COUNT por IP_COMPUTADOR,6,0.619654,68921
+MongoDB,3M,logs_3m,Q6,Agregacao COUNT por IP_COMPUTADOR,7,0.629564,68921
+MongoDB,3M,logs_3m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),1,0.015546,561
+MongoDB,3M,logs_3m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),2,0.003655,561
+MongoDB,3M,logs_3m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),3,0.003638,561
+MongoDB,3M,logs_3m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),4,0.003632,561
+MongoDB,3M,logs_3m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),5,0.00353,561
+MongoDB,3M,logs_3m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),6,0.003347,561
+MongoDB,3M,logs_3m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),7,0.003133,561
+MongoDB,3M,logs_3m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,1,0.010327,1000
+MongoDB,3M,logs_3m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,2,0.007248,1000
+MongoDB,3M,logs_3m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,3,0.009126,1000
+MongoDB,3M,logs_3m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,4,0.007571,1000
+MongoDB,3M,logs_3m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,5,0.006462,1000
+MongoDB,3M,logs_3m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,6,0.004799,1000
+MongoDB,3M,logs_3m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,7,0.004264,1000
+MongoDB,3M,logs_3m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),1,9.39526,141870
+MongoDB,3M,logs_3m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),2,4.1226,141870
+MongoDB,3M,logs_3m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),3,3.49195,141870
+MongoDB,3M,logs_3m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),4,3.365332,141870
+MongoDB,3M,logs_3m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),5,3.350327,141870
+MongoDB,3M,logs_3m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),6,3.425003,141870
+MongoDB,3M,logs_3m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),7,3.402697,141870
+MongoDB,3M,logs_3m,Q10,Agregacao COUNT por dia (DATA),1,0.733048,2
+MongoDB,3M,logs_3m,Q10,Agregacao COUNT por dia (DATA),2,0.704671,2
+MongoDB,3M,logs_3m,Q10,Agregacao COUNT por dia (DATA),3,0.704686,2
+MongoDB,3M,logs_3m,Q10,Agregacao COUNT por dia (DATA),4,0.707963,2
+MongoDB,3M,logs_3m,Q10,Agregacao COUNT por dia (DATA),5,0.708349,2
+MongoDB,3M,logs_3m,Q10,Agregacao COUNT por dia (DATA),6,0.716198,2
+MongoDB,3M,logs_3m,Q10,Agregacao COUNT por dia (DATA),7,0.705359,2
+MongoDB,10M,logs_10m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",1,27.317402,161438
+MongoDB,10M,logs_10m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",2,2.464901,161438
+MongoDB,10M,logs_10m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",3,2.406894,161438
+MongoDB,10M,logs_10m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",4,2.086145,161438
+MongoDB,10M,logs_10m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",5,2.263292,161438
+MongoDB,10M,logs_10m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",6,1.737176,161438
+MongoDB,10M,logs_10m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",7,1.775733,161438
+MongoDB,10M,logs_10m,Q02,COUNT simples com filtro de data (Limitado a 25M),1,0.795889,1
+MongoDB,10M,logs_10m,Q02,COUNT simples com filtro de data (Limitado a 25M),2,0.636412,1
+MongoDB,10M,logs_10m,Q02,COUNT simples com filtro de data (Limitado a 25M),3,0.636035,1
+MongoDB,10M,logs_10m,Q02,COUNT simples com filtro de data (Limitado a 25M),4,0.6383,1
+MongoDB,10M,logs_10m,Q02,COUNT simples com filtro de data (Limitado a 25M),5,0.654347,1
+MongoDB,10M,logs_10m,Q02,COUNT simples com filtro de data (Limitado a 25M),6,0.636664,1
+MongoDB,10M,logs_10m,Q02,COUNT simples com filtro de data (Limitado a 25M),7,0.631159,1
+MongoDB,10M,logs_10m,Q03,Filtro por ID_USU (Limitado a 25M),1,4.594792,569889
+MongoDB,10M,logs_10m,Q03,Filtro por ID_USU (Limitado a 25M),2,2.370195,569889
+MongoDB,10M,logs_10m,Q03,Filtro por ID_USU (Limitado a 25M),3,2.016242,569889
+MongoDB,10M,logs_10m,Q03,Filtro por ID_USU (Limitado a 25M),4,1.925717,569889
+MongoDB,10M,logs_10m,Q03,Filtro por ID_USU (Limitado a 25M),5,1.802968,569889
+MongoDB,10M,logs_10m,Q03,Filtro por ID_USU (Limitado a 25M),6,1.828779,569889
+MongoDB,10M,logs_10m,Q03,Filtro por ID_USU (Limitado a 25M),7,1.765398,569889
+MongoDB,10M,logs_10m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),1,5.7402,280766
+MongoDB,10M,logs_10m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),2,0.755155,280766
+MongoDB,10M,logs_10m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),3,0.544805,280766
+MongoDB,10M,logs_10m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),4,0.553126,280766
+MongoDB,10M,logs_10m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),5,0.557592,280766
+MongoDB,10M,logs_10m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),6,0.52259,280766
+MongoDB,10M,logs_10m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),7,0.51284,280766
+MongoDB,10M,logs_10m,Q05,Filtro composto: data + id_log_tipo + tabela,1,1.367378,0
+MongoDB,10M,logs_10m,Q05,Filtro composto: data + id_log_tipo + tabela,2,1.251666,0
+MongoDB,10M,logs_10m,Q05,Filtro composto: data + id_log_tipo + tabela,3,1.039092,0
+MongoDB,10M,logs_10m,Q05,Filtro composto: data + id_log_tipo + tabela,4,1.057348,0
+MongoDB,10M,logs_10m,Q05,Filtro composto: data + id_log_tipo + tabela,5,1.061522,0
+MongoDB,10M,logs_10m,Q05,Filtro composto: data + id_log_tipo + tabela,6,0.733223,0
+MongoDB,10M,logs_10m,Q05,Filtro composto: data + id_log_tipo + tabela,7,0.550382,0
+MongoDB,10M,logs_10m,Q6,Agregacao COUNT por IP_COMPUTADOR,1,2.437538,205554
+MongoDB,10M,logs_10m,Q6,Agregacao COUNT por IP_COMPUTADOR,2,2.061088,205554
+MongoDB,10M,logs_10m,Q6,Agregacao COUNT por IP_COMPUTADOR,3,2.091852,205554
+MongoDB,10M,logs_10m,Q6,Agregacao COUNT por IP_COMPUTADOR,4,2.078225,205554
+MongoDB,10M,logs_10m,Q6,Agregacao COUNT por IP_COMPUTADOR,5,2.127176,205554
+MongoDB,10M,logs_10m,Q6,Agregacao COUNT por IP_COMPUTADOR,6,2.049244,205554
+MongoDB,10M,logs_10m,Q6,Agregacao COUNT por IP_COMPUTADOR,7,2.078651,205554
+MongoDB,10M,logs_10m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),1,0.015475,565
+MongoDB,10M,logs_10m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),2,0.003983,565
+MongoDB,10M,logs_10m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),3,0.003786,565
+MongoDB,10M,logs_10m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),4,0.005859,565
+MongoDB,10M,logs_10m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),5,0.003756,565
+MongoDB,10M,logs_10m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),6,0.003678,565
+MongoDB,10M,logs_10m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),7,0.003694,565
+MongoDB,10M,logs_10m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,1,0.01537,1000
+MongoDB,10M,logs_10m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,2,0.004052,1000
+MongoDB,10M,logs_10m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,3,0.0045,1000
+MongoDB,10M,logs_10m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,4,0.004935,1000
+MongoDB,10M,logs_10m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,5,0.003932,1000
+MongoDB,10M,logs_10m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,6,0.004455,1000
+MongoDB,10M,logs_10m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,7,0.005189,1000
+MongoDB,10M,logs_10m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),1,35.617761,479548
+MongoDB,10M,logs_10m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),2,15.007205,479548
+MongoDB,10M,logs_10m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),3,14.440004,479548
+MongoDB,10M,logs_10m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),4,14.027985,479548
+MongoDB,10M,logs_10m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),5,13.561435,479548
+MongoDB,10M,logs_10m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),6,13.841859,479548
+MongoDB,10M,logs_10m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),7,13.770298,479548
+MongoDB,10M,logs_10m,Q10,Agregacao COUNT por dia (DATA),1,2.432394,6
+MongoDB,10M,logs_10m,Q10,Agregacao COUNT por dia (DATA),2,2.400593,6
+MongoDB,10M,logs_10m,Q10,Agregacao COUNT por dia (DATA),3,2.387447,6
+MongoDB,10M,logs_10m,Q10,Agregacao COUNT por dia (DATA),4,2.382564,6
+MongoDB,10M,logs_10m,Q10,Agregacao COUNT por dia (DATA),5,2.39888,6
+MongoDB,10M,logs_10m,Q10,Agregacao COUNT por dia (DATA),6,2.472686,6
+MongoDB,10M,logs_10m,Q10,Agregacao COUNT por dia (DATA),7,2.441047,6
+MongoDB,50M,logs_50m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",1,94.871151,161438
+MongoDB,50M,logs_50m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",2,93.599966,161438
+MongoDB,50M,logs_50m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",3,93.303771,161438
+MongoDB,50M,logs_50m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",4,93.575147,161438
+MongoDB,50M,logs_50m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",5,94.116797,161438
+MongoDB,50M,logs_50m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",6,92.867571,161438
+MongoDB,50M,logs_50m,Q01,"DISTINCT com log_tipo_detalhes, filtro id_log_tipo e data (Limitado a 25M)",7,92.96532,161438
+MongoDB,50M,logs_50m,Q02,COUNT simples com filtro de data (Limitado a 25M),1,4.619554,1
+MongoDB,50M,logs_50m,Q02,COUNT simples com filtro de data (Limitado a 25M),2,3.172521,1
+MongoDB,50M,logs_50m,Q02,COUNT simples com filtro de data (Limitado a 25M),3,3.180237,1
+MongoDB,50M,logs_50m,Q02,COUNT simples com filtro de data (Limitado a 25M),4,3.181813,1
+MongoDB,50M,logs_50m,Q02,COUNT simples com filtro de data (Limitado a 25M),5,3.205727,1
+MongoDB,50M,logs_50m,Q02,COUNT simples com filtro de data (Limitado a 25M),6,3.197634,1
+MongoDB,50M,logs_50m,Q02,COUNT simples com filtro de data (Limitado a 25M),7,3.2067,1
+MongoDB,50M,logs_50m,Q03,Filtro por ID_USU (Limitado a 25M),1,80.64962,2849445
+MongoDB,50M,logs_50m,Q03,Filtro por ID_USU (Limitado a 25M),2,101.323749,2849445
+MongoDB,50M,logs_50m,Q03,Filtro por ID_USU (Limitado a 25M),3,108.45248,2849445
+MongoDB,50M,logs_50m,Q03,Filtro por ID_USU (Limitado a 25M),4,104.615353,2849445
+MongoDB,50M,logs_50m,Q03,Filtro por ID_USU (Limitado a 25M),5,106.031509,2849445
+MongoDB,50M,logs_50m,Q03,Filtro por ID_USU (Limitado a 25M),6,102.807284,2849445
+MongoDB,50M,logs_50m,Q03,Filtro por ID_USU (Limitado a 25M),7,98.733004,2849445
+MongoDB,50M,logs_50m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),1,24.464125,1403830
+MongoDB,50M,logs_50m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),2,8.653503,1403830
+MongoDB,50M,logs_50m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),3,5.132542,1403830
+MongoDB,50M,logs_50m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),4,5.295816,1403830
+MongoDB,50M,logs_50m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),5,4.805239,1403830
+MongoDB,50M,logs_50m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),6,4.755073,1403830
+MongoDB,50M,logs_50m,Q04,Filtro por IP_COMPUTADOR (Limitado a 25M),7,4.688877,1403830
+MongoDB,50M,logs_50m,Q05,Filtro composto: data + id_log_tipo + tabela,1,91.440623,0
+MongoDB,50M,logs_50m,Q05,Filtro composto: data + id_log_tipo + tabela,2,97.282181,0
+MongoDB,50M,logs_50m,Q05,Filtro composto: data + id_log_tipo + tabela,3,101.237814,0
+MongoDB,50M,logs_50m,Q05,Filtro composto: data + id_log_tipo + tabela,4,99.76798,0
+MongoDB,50M,logs_50m,Q05,Filtro composto: data + id_log_tipo + tabela,5,99.667642,0
+MongoDB,50M,logs_50m,Q05,Filtro composto: data + id_log_tipo + tabela,6,100.631642,0
+MongoDB,50M,logs_50m,Q05,Filtro composto: data + id_log_tipo + tabela,7,109.191724,0
+MongoDB,50M,logs_50m,Q6,Agregacao COUNT por IP_COMPUTADOR,1,10.359598,205554
+MongoDB,50M,logs_50m,Q6,Agregacao COUNT por IP_COMPUTADOR,2,8.082113,205554
+MongoDB,50M,logs_50m,Q6,Agregacao COUNT por IP_COMPUTADOR,3,7.928289,205554
+MongoDB,50M,logs_50m,Q6,Agregacao COUNT por IP_COMPUTADOR,4,7.951758,205554
+MongoDB,50M,logs_50m,Q6,Agregacao COUNT por IP_COMPUTADOR,5,7.914939,205554
+MongoDB,50M,logs_50m,Q6,Agregacao COUNT por IP_COMPUTADOR,6,7.879608,205554
+MongoDB,50M,logs_50m,Q6,Agregacao COUNT por IP_COMPUTADOR,7,7.884641,205554
+MongoDB,50M,logs_50m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),1,0.128024,2825
+MongoDB,50M,logs_50m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),2,0.012104,2825
+MongoDB,50M,logs_50m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),3,0.014381,2825
+MongoDB,50M,logs_50m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),4,0.012854,2825
+MongoDB,50M,logs_50m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),5,0.015431,2825
+MongoDB,50M,logs_50m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),6,0.013255,2825
+MongoDB,50M,logs_50m,Q07,Filtro por nome do tipo de log (log_tipo_detalhes),7,0.017964,2825
+MongoDB,50M,logs_50m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,1,0.011378,1000
+MongoDB,50M,logs_50m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,2,0.005187,1000
+MongoDB,50M,logs_50m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,3,0.005024,1000
+MongoDB,50M,logs_50m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,4,0.006102,1000
+MongoDB,50M,logs_50m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,5,0.013196,1000
+MongoDB,50M,logs_50m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,6,0.006108,1000
+MongoDB,50M,logs_50m,Q08,Paginacao: ultimos 1000 registros por DATA DESC,7,0.007261,1000
+MongoDB,50M,logs_50m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),1,136.88084,2397740
+MongoDB,50M,logs_50m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),2,132.536582,2397740
+MongoDB,50M,logs_50m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),3,132.302815,2397740
+MongoDB,50M,logs_50m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),4,130.232622,2397740
+MongoDB,50M,logs_50m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),5,129.461028,2397740
+MongoDB,50M,logs_50m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),6,135.245676,2397740
+MongoDB,50M,logs_50m,Q09,Busca por substring em VALOR_ATUAL (Limitado a 25M),7,135.403174,2397740
+MongoDB,50M,logs_50m,Q10,Agregacao COUNT por dia (DATA),1,14.506207,6
+MongoDB,50M,logs_50m,Q10,Agregacao COUNT por dia (DATA),2,12.409981,6
+MongoDB,50M,logs_50m,Q10,Agregacao COUNT por dia (DATA),3,12.093917,6
+MongoDB,50M,logs_50m,Q10,Agregacao COUNT por dia (DATA),4,12.027229,6
+MongoDB,50M,logs_50m,Q10,Agregacao COUNT por dia (DATA),5,11.896482,6
+MongoDB,50M,logs_50m,Q10,Agregacao COUNT por dia (DATA),6,11.925071,6
+MongoDB,50M,logs_50m,Q10,Agregacao COUNT por dia (DATA),7,11.877566,6
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,1,3.633275,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,2,1.293241,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,3,1.109254,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,4,1.110181,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,5,1.111505,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,6,1.120847,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,7,1.129265,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,1,1.276855,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,2,1.065166,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,3,1.084847,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,4,1.082675,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,5,1.071679,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,6,1.092601,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,7,1.097266,1000000
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,1,0.116887,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,2,0.001152,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,3,0.000892,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,4,0.000734,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,5,0.000677,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,6,0.000733,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,7,0.000704,15
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,1,1.332603,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,2,0.356414,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,3,0.336515,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,4,0.674332,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,5,0.358945,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,6,0.503397,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,7,0.330713,38
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,1,14.660031,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,2,14.679431,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,3,14.155770,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,4,13.710577,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,5,13.740688,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,6,13.773654,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,7,13.523687,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,1,3.633275,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,2,1.293241,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,3,1.109254,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,4,1.110181,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,5,1.111505,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,6,1.120847,1000000
+MongoDB,50M,logs_50m,Q11,Filtro tipo_log desnormalizado,7,1.129265,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,1,1.276855,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,2,1.065166,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,3,1.084847,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,4,1.082675,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,5,1.071679,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,6,1.092601,1000000
+MongoDB,50M,logs_50m,Q12,Filtro Origem desnormalizada,7,1.097266,1000000
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,1,0.116887,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,2,0.001152,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,3,0.000892,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,4,0.000734,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,5,0.000677,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,6,0.000733,15
+MongoDB,50M,logs_50m,Q13,Filtro Id_Pendencia desnormalizado,7,0.000704,15
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,1,1.332603,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,2,0.356414,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,3,0.336515,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,4,0.674332,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,5,0.358945,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,6,0.503397,38
+MongoDB,50M,logs_50m,Q14,Agregação COUNT por tipo,7,0.330713,38
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,1,14.660031,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,2,14.679431,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,3,14.155770,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,4,13.710577,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,5,13.740688,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,6,13.773654,1000000
+MongoDB,50M,logs_50m,Q15,Combinado: Tipo + Origem,7,13.523687,1000000

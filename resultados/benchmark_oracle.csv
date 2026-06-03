@@ -1,0 +1,246 @@
+banco,volume,tabela,consulta_id,descricao,execucao,tempo_s,linhas
+Oracle19c,3M,LOG_2025_3M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),1,1.473467,32571
+Oracle19c,3M,LOG_2025_3M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),2,0.65408,32571
+Oracle19c,3M,LOG_2025_3M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),3,0.639134,32571
+Oracle19c,3M,LOG_2025_3M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),4,0.633893,32571
+Oracle19c,3M,LOG_2025_3M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),5,0.625496,32571
+Oracle19c,3M,LOG_2025_3M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),6,0.62343,32571
+Oracle19c,3M,LOG_2025_3M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),7,0.626981,32571
+Oracle19c,3M,LOG_2025_3M,Q02,COUNT simples com filtro de data,1,0.23918,1
+Oracle19c,3M,LOG_2025_3M,Q02,COUNT simples com filtro de data,2,0.055421,1
+Oracle19c,3M,LOG_2025_3M,Q02,COUNT simples com filtro de data,3,0.055764,1
+Oracle19c,3M,LOG_2025_3M,Q02,COUNT simples com filtro de data,4,0.05613,1
+Oracle19c,3M,LOG_2025_3M,Q02,COUNT simples com filtro de data,5,0.055918,1
+Oracle19c,3M,LOG_2025_3M,Q02,COUNT simples com filtro de data,6,0.055132,1
+Oracle19c,3M,LOG_2025_3M,Q02,COUNT simples com filtro de data,7,0.055499,1
+Oracle19c,3M,LOG_2025_3M,Q03,Filtro por ID_USU (Limit 25M),1,1.424214,240012
+Oracle19c,3M,LOG_2025_3M,Q03,Filtro por ID_USU (Limit 25M),2,0.966456,240012
+Oracle19c,3M,LOG_2025_3M,Q03,Filtro por ID_USU (Limit 25M),3,0.99113,240012
+Oracle19c,3M,LOG_2025_3M,Q03,Filtro por ID_USU (Limit 25M),4,0.962879,240012
+Oracle19c,3M,LOG_2025_3M,Q03,Filtro por ID_USU (Limit 25M),5,1.020445,240012
+Oracle19c,3M,LOG_2025_3M,Q03,Filtro por ID_USU (Limit 25M),6,0.959535,240012
+Oracle19c,3M,LOG_2025_3M,Q03,Filtro por ID_USU (Limit 25M),7,0.996603,240012
+Oracle19c,3M,LOG_2025_3M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),1,1.48885,158268
+Oracle19c,3M,LOG_2025_3M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),2,1.261574,158268
+Oracle19c,3M,LOG_2025_3M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),3,1.230343,158268
+Oracle19c,3M,LOG_2025_3M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),4,1.230702,158268
+Oracle19c,3M,LOG_2025_3M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),5,1.2334,158268
+Oracle19c,3M,LOG_2025_3M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),6,1.254548,158268
+Oracle19c,3M,LOG_2025_3M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),7,1.224627,158268
+Oracle19c,3M,LOG_2025_3M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),1,0.137829,0
+Oracle19c,3M,LOG_2025_3M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),2,0.104979,0
+Oracle19c,3M,LOG_2025_3M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),3,0.10052,0
+Oracle19c,3M,LOG_2025_3M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),4,0.100176,0
+Oracle19c,3M,LOG_2025_3M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),5,0.101022,0
+Oracle19c,3M,LOG_2025_3M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),6,0.103549,0
+Oracle19c,3M,LOG_2025_3M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),7,0.104148,0
+Oracle19c,3M,LOG_2025_3M,Q6,Agregacao COUNT por IP_COMPUTADOR,1,0.470126,68921
+Oracle19c,3M,LOG_2025_3M,Q6,Agregacao COUNT por IP_COMPUTADOR,2,0.28036,68921
+Oracle19c,3M,LOG_2025_3M,Q6,Agregacao COUNT por IP_COMPUTADOR,3,0.278905,68921
+Oracle19c,3M,LOG_2025_3M,Q6,Agregacao COUNT por IP_COMPUTADOR,4,0.278247,68921
+Oracle19c,3M,LOG_2025_3M,Q6,Agregacao COUNT por IP_COMPUTADOR,5,0.280458,68921
+Oracle19c,3M,LOG_2025_3M,Q6,Agregacao COUNT por IP_COMPUTADOR,6,0.28653,68921
+Oracle19c,3M,LOG_2025_3M,Q6,Agregacao COUNT por IP_COMPUTADOR,7,0.294921,68921
+Oracle19c,3M,LOG_2025_3M,Q07,Filtro por nome do tipo de log (Limit 25M),1,1.208689,561
+Oracle19c,3M,LOG_2025_3M,Q07,Filtro por nome do tipo de log (Limit 25M),2,1.158882,561
+Oracle19c,3M,LOG_2025_3M,Q07,Filtro por nome do tipo de log (Limit 25M),3,1.17922,561
+Oracle19c,3M,LOG_2025_3M,Q07,Filtro por nome do tipo de log (Limit 25M),4,1.159022,561
+Oracle19c,3M,LOG_2025_3M,Q07,Filtro por nome do tipo de log (Limit 25M),5,1.137143,561
+Oracle19c,3M,LOG_2025_3M,Q07,Filtro por nome do tipo de log (Limit 25M),6,1.129336,561
+Oracle19c,3M,LOG_2025_3M,Q07,Filtro por nome do tipo de log (Limit 25M),7,1.125756,561
+Oracle19c,3M,LOG_2025_3M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,1,0.038666,1000
+Oracle19c,3M,LOG_2025_3M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,2,0.004278,1000
+Oracle19c,3M,LOG_2025_3M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,3,0.003973,1000
+Oracle19c,3M,LOG_2025_3M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,4,0.004131,1000
+Oracle19c,3M,LOG_2025_3M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,5,0.003648,1000
+Oracle19c,3M,LOG_2025_3M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,6,0.003965,1000
+Oracle19c,3M,LOG_2025_3M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,7,0.310565,1000
+Oracle19c,3M,LOG_2025_3M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),1,8.730155,141870
+Oracle19c,3M,LOG_2025_3M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),2,8.180673,141870
+Oracle19c,3M,LOG_2025_3M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),3,8.140487,141870
+Oracle19c,3M,LOG_2025_3M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),4,8.121995,141870
+Oracle19c,3M,LOG_2025_3M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),5,8.155647,141870
+Oracle19c,3M,LOG_2025_3M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),6,8.200209,141870
+Oracle19c,3M,LOG_2025_3M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),7,8.11831,141870
+Oracle19c,3M,LOG_2025_3M,Q10,Agregacao COUNT por dia (DATA),1,0.169039,2
+Oracle19c,3M,LOG_2025_3M,Q10,Agregacao COUNT por dia (DATA),2,0.162402,2
+Oracle19c,3M,LOG_2025_3M,Q10,Agregacao COUNT por dia (DATA),3,0.161022,2
+Oracle19c,3M,LOG_2025_3M,Q10,Agregacao COUNT por dia (DATA),4,0.162604,2
+Oracle19c,3M,LOG_2025_3M,Q10,Agregacao COUNT por dia (DATA),5,0.160989,2
+Oracle19c,3M,LOG_2025_3M,Q10,Agregacao COUNT por dia (DATA),6,0.161629,2
+Oracle19c,3M,LOG_2025_3M,Q10,Agregacao COUNT por dia (DATA),7,0.164193,2
+Oracle19c,10M,LOG_2025_10M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),1,66.513216,124708
+Oracle19c,10M,LOG_2025_10M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),2,2.44013,124708
+Oracle19c,10M,LOG_2025_10M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),3,2.199951,124708
+Oracle19c,10M,LOG_2025_10M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),4,2.209965,124708
+Oracle19c,10M,LOG_2025_10M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),5,2.329246,124708
+Oracle19c,10M,LOG_2025_10M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),6,2.157808,124708
+Oracle19c,10M,LOG_2025_10M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),7,2.171134,124708
+Oracle19c,10M,LOG_2025_10M,Q02,COUNT simples com filtro de data,1,0.395795,1
+Oracle19c,10M,LOG_2025_10M,Q02,COUNT simples com filtro de data,2,0.180714,1
+Oracle19c,10M,LOG_2025_10M,Q02,COUNT simples com filtro de data,3,0.179236,1
+Oracle19c,10M,LOG_2025_10M,Q02,COUNT simples com filtro de data,4,0.179133,1
+Oracle19c,10M,LOG_2025_10M,Q02,COUNT simples com filtro de data,5,0.177988,1
+Oracle19c,10M,LOG_2025_10M,Q02,COUNT simples com filtro de data,6,0.179144,1
+Oracle19c,10M,LOG_2025_10M,Q02,COUNT simples com filtro de data,7,0.178476,1
+Oracle19c,10M,LOG_2025_10M,Q03,Filtro por ID_USU (Limit 25M),1,25.752735,569889
+Oracle19c,10M,LOG_2025_10M,Q03,Filtro por ID_USU (Limit 25M),2,2.240992,569889
+Oracle19c,10M,LOG_2025_10M,Q03,Filtro por ID_USU (Limit 25M),3,2.211605,569889
+Oracle19c,10M,LOG_2025_10M,Q03,Filtro por ID_USU (Limit 25M),4,2.192776,569889
+Oracle19c,10M,LOG_2025_10M,Q03,Filtro por ID_USU (Limit 25M),5,2.1936,569889
+Oracle19c,10M,LOG_2025_10M,Q03,Filtro por ID_USU (Limit 25M),6,2.245221,569889
+Oracle19c,10M,LOG_2025_10M,Q03,Filtro por ID_USU (Limit 25M),7,2.18454,569889
+Oracle19c,10M,LOG_2025_10M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),1,2.640128,280766
+Oracle19c,10M,LOG_2025_10M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),2,1.033684,280766
+Oracle19c,10M,LOG_2025_10M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),3,1.003235,280766
+Oracle19c,10M,LOG_2025_10M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),4,1.02325,280766
+Oracle19c,10M,LOG_2025_10M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),5,1.071533,280766
+Oracle19c,10M,LOG_2025_10M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),6,1.016815,280766
+Oracle19c,10M,LOG_2025_10M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),7,1.03899,280766
+Oracle19c,10M,LOG_2025_10M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),1,1.329198,0
+Oracle19c,10M,LOG_2025_10M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),2,0.83796,0
+Oracle19c,10M,LOG_2025_10M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),3,0.779335,0
+Oracle19c,10M,LOG_2025_10M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),4,0.770479,0
+Oracle19c,10M,LOG_2025_10M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),5,0.767021,0
+Oracle19c,10M,LOG_2025_10M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),6,0.787405,0
+Oracle19c,10M,LOG_2025_10M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),7,0.766533,0
+Oracle19c,10M,LOG_2025_10M,Q6,Agregacao COUNT por IP_COMPUTADOR,1,1.147407,205554
+Oracle19c,10M,LOG_2025_10M,Q6,Agregacao COUNT por IP_COMPUTADOR,2,0.918432,205554
+Oracle19c,10M,LOG_2025_10M,Q6,Agregacao COUNT por IP_COMPUTADOR,3,0.901925,205554
+Oracle19c,10M,LOG_2025_10M,Q6,Agregacao COUNT por IP_COMPUTADOR,4,0.925102,205554
+Oracle19c,10M,LOG_2025_10M,Q6,Agregacao COUNT por IP_COMPUTADOR,5,0.886371,205554
+Oracle19c,10M,LOG_2025_10M,Q6,Agregacao COUNT por IP_COMPUTADOR,6,0.883217,205554
+Oracle19c,10M,LOG_2025_10M,Q6,Agregacao COUNT por IP_COMPUTADOR,7,0.888287,205554
+Oracle19c,10M,LOG_2025_10M,Q07,Filtro por nome do tipo de log (Limit 25M),1,61.331719,565
+Oracle19c,10M,LOG_2025_10M,Q07,Filtro por nome do tipo de log (Limit 25M),2,57.830486,565
+Oracle19c,10M,LOG_2025_10M,Q07,Filtro por nome do tipo de log (Limit 25M),3,55.599931,565
+Oracle19c,10M,LOG_2025_10M,Q07,Filtro por nome do tipo de log (Limit 25M),4,49.112717,565
+Oracle19c,10M,LOG_2025_10M,Q07,Filtro por nome do tipo de log (Limit 25M),5,59.276376,565
+Oracle19c,10M,LOG_2025_10M,Q07,Filtro por nome do tipo de log (Limit 25M),6,62.599047,565
+Oracle19c,10M,LOG_2025_10M,Q07,Filtro por nome do tipo de log (Limit 25M),7,59.196797,565
+Oracle19c,10M,LOG_2025_10M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,1,0.166076,1000
+Oracle19c,10M,LOG_2025_10M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,2,0.004761,1000
+Oracle19c,10M,LOG_2025_10M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,3,0.004028,1000
+Oracle19c,10M,LOG_2025_10M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,4,0.003784,1000
+Oracle19c,10M,LOG_2025_10M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,5,0.004088,1000
+Oracle19c,10M,LOG_2025_10M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,6,0.003773,1000
+Oracle19c,10M,LOG_2025_10M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,7,0.003699,1000
+Oracle19c,10M,LOG_2025_10M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),1,52.711053,479548
+Oracle19c,10M,LOG_2025_10M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),2,55.010839,479548
+Oracle19c,10M,LOG_2025_10M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),3,63.322867,479548
+Oracle19c,10M,LOG_2025_10M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),4,69.221539,479548
+Oracle19c,10M,LOG_2025_10M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),5,45.822067,479548
+Oracle19c,10M,LOG_2025_10M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),6,33.247987,479548
+Oracle19c,10M,LOG_2025_10M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),7,53.168588,479548
+Oracle19c,10M,LOG_2025_10M,Q10,Agregacao COUNT por dia (DATA),1,4.037318,6
+Oracle19c,10M,LOG_2025_10M,Q10,Agregacao COUNT por dia (DATA),2,0.534177,6
+Oracle19c,10M,LOG_2025_10M,Q10,Agregacao COUNT por dia (DATA),3,0.514886,6
+Oracle19c,10M,LOG_2025_10M,Q10,Agregacao COUNT por dia (DATA),4,0.533382,6
+Oracle19c,10M,LOG_2025_10M,Q10,Agregacao COUNT por dia (DATA),5,0.512447,6
+Oracle19c,10M,LOG_2025_10M,Q10,Agregacao COUNT por dia (DATA),6,0.523458,6
+Oracle19c,10M,LOG_2025_10M,Q10,Agregacao COUNT por dia (DATA),7,0.527717,6
+Oracle19c,50M,LOG_2025_50M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),1,338.676292,124708
+Oracle19c,50M,LOG_2025_50M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),2,286.424234,124708
+Oracle19c,50M,LOG_2025_50M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),3,293.72118,124708
+Oracle19c,50M,LOG_2025_50M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),4,319.882047,124708
+Oracle19c,50M,LOG_2025_50M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),5,285.300206,124708
+Oracle19c,50M,LOG_2025_50M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),6,256.919342,124708
+Oracle19c,50M,LOG_2025_50M,Q01,DISTINCT com extração de string e agrupamento (Limit 25M),7,31.313124,124708
+Oracle19c,50M,LOG_2025_50M,Q02,COUNT simples com filtro de data,1,2.185042,1
+Oracle19c,50M,LOG_2025_50M,Q02,COUNT simples com filtro de data,2,0.94413,1
+Oracle19c,50M,LOG_2025_50M,Q02,COUNT simples com filtro de data,3,0.938836,1
+Oracle19c,50M,LOG_2025_50M,Q02,COUNT simples com filtro de data,4,0.941299,1
+Oracle19c,50M,LOG_2025_50M,Q02,COUNT simples com filtro de data,5,0.938046,1
+Oracle19c,50M,LOG_2025_50M,Q02,COUNT simples com filtro de data,6,0.925155,1
+Oracle19c,50M,LOG_2025_50M,Q02,COUNT simples com filtro de data,7,0.931663,1
+Oracle19c,50M,LOG_2025_50M,Q03,Filtro por ID_USU (Limit 25M),1,122.691387,2849445
+Oracle19c,50M,LOG_2025_50M,Q03,Filtro por ID_USU (Limit 25M),2,68.906091,2849445
+Oracle19c,50M,LOG_2025_50M,Q03,Filtro por ID_USU (Limit 25M),3,66.091006,2849445
+Oracle19c,50M,LOG_2025_50M,Q03,Filtro por ID_USU (Limit 25M),4,62.998591,2849445
+Oracle19c,50M,LOG_2025_50M,Q03,Filtro por ID_USU (Limit 25M),5,67.80431,2849445
+Oracle19c,50M,LOG_2025_50M,Q03,Filtro por ID_USU (Limit 25M),6,65.963497,2849445
+Oracle19c,50M,LOG_2025_50M,Q03,Filtro por ID_USU (Limit 25M),7,68.091904,2849445
+Oracle19c,50M,LOG_2025_50M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),1,15.376893,1403830
+Oracle19c,50M,LOG_2025_50M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),2,5.286287,1403830
+Oracle19c,50M,LOG_2025_50M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),3,5.362767,1403830
+Oracle19c,50M,LOG_2025_50M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),4,5.543049,1403830
+Oracle19c,50M,LOG_2025_50M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),5,5.335069,1403830
+Oracle19c,50M,LOG_2025_50M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),6,5.018936,1403830
+Oracle19c,50M,LOG_2025_50M,Q04,Filtro por IP_COMPUTADOR (Limit 25M),7,5.243566,1403830
+Oracle19c,50M,LOG_2025_50M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),1,2.975557,0
+Oracle19c,50M,LOG_2025_50M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),2,2.767759,0
+Oracle19c,50M,LOG_2025_50M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),3,2.697467,0
+Oracle19c,50M,LOG_2025_50M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),4,2.467868,0
+Oracle19c,50M,LOG_2025_50M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),5,2.313852,0
+Oracle19c,50M,LOG_2025_50M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),6,2.330663,0
+Oracle19c,50M,LOG_2025_50M,Q05,Filtro composto: data + id_log_tipo + tabela (Limit 25M),7,2.386837,0
+Oracle19c,50M,LOG_2025_50M,Q6,Agregacao COUNT por IP_COMPUTADOR,1,4.191335,205554
+Oracle19c,50M,LOG_2025_50M,Q6,Agregacao COUNT por IP_COMPUTADOR,2,3.235052,205554
+Oracle19c,50M,LOG_2025_50M,Q6,Agregacao COUNT por IP_COMPUTADOR,3,3.065783,205554
+Oracle19c,50M,LOG_2025_50M,Q6,Agregacao COUNT por IP_COMPUTADOR,4,3.005558,205554
+Oracle19c,50M,LOG_2025_50M,Q6,Agregacao COUNT por IP_COMPUTADOR,5,3.037308,205554
+Oracle19c,50M,LOG_2025_50M,Q6,Agregacao COUNT por IP_COMPUTADOR,6,3.092164,205554
+Oracle19c,50M,LOG_2025_50M,Q6,Agregacao COUNT por IP_COMPUTADOR,7,3.075502,205554
+Oracle19c,50M,LOG_2025_50M,Q07,Filtro por nome do tipo de log (Limit 25M),1,52.258478,2810
+Oracle19c,50M,LOG_2025_50M,Q07,Filtro por nome do tipo de log (Limit 25M),2,51.067283,2810
+Oracle19c,50M,LOG_2025_50M,Q07,Filtro por nome do tipo de log (Limit 25M),3,50.331814,2810
+Oracle19c,50M,LOG_2025_50M,Q07,Filtro por nome do tipo de log (Limit 25M),4,49.990502,2810
+Oracle19c,50M,LOG_2025_50M,Q07,Filtro por nome do tipo de log (Limit 25M),5,49.374212,2810
+Oracle19c,50M,LOG_2025_50M,Q07,Filtro por nome do tipo de log (Limit 25M),6,50.034009,2810
+Oracle19c,50M,LOG_2025_50M,Q07,Filtro por nome do tipo de log (Limit 25M),7,51.049916,2810
+Oracle19c,50M,LOG_2025_50M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,1,0.143259,1000
+Oracle19c,50M,LOG_2025_50M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,2,0.003931,1000
+Oracle19c,50M,LOG_2025_50M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,3,0.003769,1000
+Oracle19c,50M,LOG_2025_50M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,4,0.003776,1000
+Oracle19c,50M,LOG_2025_50M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,5,0.003692,1000
+Oracle19c,50M,LOG_2025_50M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,6,0.003441,1000
+Oracle19c,50M,LOG_2025_50M,Q08,Paginacao: ultimos 1000 registros por DATA DESC,7,0.003713,1000
+Oracle19c,50M,LOG_2025_50M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),1,136.801154,2397740
+Oracle19c,50M,LOG_2025_50M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),2,135.022079,2397740
+Oracle19c,50M,LOG_2025_50M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),3,133.817883,2397740
+Oracle19c,50M,LOG_2025_50M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),4,135.901209,2397740
+Oracle19c,50M,LOG_2025_50M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),5,136.400046,2397740
+Oracle19c,50M,LOG_2025_50M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),6,136.53181,2397740
+Oracle19c,50M,LOG_2025_50M,Q09,Busca por substring em VALOR_ATUAL (Limit 25M),7,135.322864,2397740
+Oracle19c,50M,LOG_2025_50M,Q10,Agregacao COUNT por dia (DATA),1,3.42266,6
+Oracle19c,50M,LOG_2025_50M,Q10,Agregacao COUNT por dia (DATA),2,2.639642,6
+Oracle19c,50M,LOG_2025_50M,Q10,Agregacao COUNT por dia (DATA),3,2.650903,6
+Oracle19c,50M,LOG_2025_50M,Q10,Agregacao COUNT por dia (DATA),4,2.646404,6
+Oracle19c,50M,LOG_2025_50M,Q10,Agregacao COUNT por dia (DATA),5,2.639549,6
+Oracle19c,50M,LOG_2025_50M,Q10,Agregacao COUNT por dia (DATA),6,2.634456,6
+Oracle19c,50M,LOG_2025_50M,Q10,Agregacao COUNT por dia (DATA),7,2.656332,6
+Oracle19c,50M,LOG_2025_50M,Q11,Filtro por tipo de log (JOIN LOG_TIPO='Download' - Limit 1M),1,0.985309,1000000
+Oracle19c,50M,LOG_2025_50M,Q11,Filtro por tipo de log (JOIN LOG_TIPO='Download' - Limit 1M),2,0.405889,1000000
+Oracle19c,50M,LOG_2025_50M,Q11,Filtro por tipo de log (JOIN LOG_TIPO='Download' - Limit 1M),3,0.412889,1000000
+Oracle19c,50M,LOG_2025_50M,Q11,Filtro por tipo de log (JOIN LOG_TIPO='Download' - Limit 1M),4,0.403100,1000000
+Oracle19c,50M,LOG_2025_50M,Q11,Filtro por tipo de log (JOIN LOG_TIPO='Download' - Limit 1M),5,0.405955,1000000
+Oracle19c,50M,LOG_2025_50M,Q11,Filtro por tipo de log (JOIN LOG_TIPO='Download' - Limit 1M),6,0.415407,1000000
+Oracle19c,50M,LOG_2025_50M,Q11,Filtro por tipo de log (JOIN LOG_TIPO='Download' - Limit 1M),7,0.407155,1000000
+Oracle19c,50M,LOG_2025_50M,Q12,Filtro por Origem no CLOB VALOR_NOVO ('projudi' - Limit 1M),1,16.585669,1000000
+Oracle19c,50M,LOG_2025_50M,Q12,Filtro por Origem no CLOB VALOR_NOVO ('projudi' - Limit 1M),2,16.371529,1000000
+Oracle19c,50M,LOG_2025_50M,Q12,Filtro por Origem no CLOB VALOR_NOVO ('projudi' - Limit 1M),3,16.224023,1000000
+Oracle19c,50M,LOG_2025_50M,Q12,Filtro por Origem no CLOB VALOR_NOVO ('projudi' - Limit 1M),4,16.244927,1000000
+Oracle19c,50M,LOG_2025_50M,Q12,Filtro por Origem no CLOB VALOR_NOVO ('projudi' - Limit 1M),5,16.176399,1000000
+Oracle19c,50M,LOG_2025_50M,Q12,Filtro por Origem no CLOB VALOR_NOVO ('projudi' - Limit 1M),6,16.115711,1000000
+Oracle19c,50M,LOG_2025_50M,Q12,Filtro por Origem no CLOB VALOR_NOVO ('projudi' - Limit 1M),7,16.412410,1000000
+Oracle19c,50M,LOG_2025_50M,Q13,Filtro por Id_Pendencia no CLOB VALOR_NOVO ('440542455' - Limit 1M),1,38.773472,461083
+Oracle19c,50M,LOG_2025_50M,Q13,Filtro por Id_Pendencia no CLOB VALOR_NOVO ('440542455' - Limit 1M),2,49.976441,461083
+Oracle19c,50M,LOG_2025_50M,Q13,Filtro por Id_Pendencia no CLOB VALOR_NOVO ('440542455' - Limit 1M),3,49.935799,461083
+Oracle19c,50M,LOG_2025_50M,Q13,Filtro por Id_Pendencia no CLOB VALOR_NOVO ('440542455' - Limit 1M),4,39.276851,461083
+Oracle19c,50M,LOG_2025_50M,Q13,Filtro por Id_Pendencia no CLOB VALOR_NOVO ('440542455' - Limit 1M),5,49.893749,461083
+Oracle19c,50M,LOG_2025_50M,Q13,Filtro por Id_Pendencia no CLOB VALOR_NOVO ('440542455' - Limit 1M),6,49.857854,461083
+Oracle19c,50M,LOG_2025_50M,Q13,Filtro por Id_Pendencia no CLOB VALOR_NOVO ('440542455' - Limit 1M),7,39.291190,461083
+Oracle19c,50M,LOG_2025_50M,Q14,Agregacao COUNT por tipo de log (JOIN LOG_TIPO - Limit 1M),1,0.145235,1
+Oracle19c,50M,LOG_2025_50M,Q14,Agregacao COUNT por tipo de log (JOIN LOG_TIPO - Limit 1M),2,0.057206,1
+Oracle19c,50M,LOG_2025_50M,Q14,Agregacao COUNT por tipo de log (JOIN LOG_TIPO - Limit 1M),3,0.057077,1
+Oracle19c,50M,LOG_2025_50M,Q14,Agregacao COUNT por tipo de log (JOIN LOG_TIPO - Limit 1M),4,0.055863,1
+Oracle19c,50M,LOG_2025_50M,Q14,Agregacao COUNT por tipo de log (JOIN LOG_TIPO - Limit 1M),5,0.055847,1
+Oracle19c,50M,LOG_2025_50M,Q14,Agregacao COUNT por tipo de log (JOIN LOG_TIPO - Limit 1M),6,0.057374,1
+Oracle19c,50M,LOG_2025_50M,Q14,Agregacao COUNT por tipo de log (JOIN LOG_TIPO - Limit 1M),7,0.055954,1
+Oracle19c,50M,LOG_2025_50M,Q15,Combinado: LOG_TIPO='Download' + Origem='projudi' (Limit 1M),1,86.099278,1000000
+Oracle19c,50M,LOG_2025_50M,Q15,Combinado: LOG_TIPO='Download' + Origem='projudi' (Limit 1M),2,84.896807,1000000
+Oracle19c,50M,LOG_2025_50M,Q15,Combinado: LOG_TIPO='Download' + Origem='projudi' (Limit 1M),3,85.157335,1000000
+Oracle19c,50M,LOG_2025_50M,Q15,Combinado: LOG_TIPO='Download' + Origem='projudi' (Limit 1M),4,85.247449,1000000
+Oracle19c,50M,LOG_2025_50M,Q15,Combinado: LOG_TIPO='Download' + Origem='projudi' (Limit 1M),5,84.895681,1000000
+Oracle19c,50M,LOG_2025_50M,Q15,Combinado: LOG_TIPO='Download' + Origem='projudi' (Limit 1M),6,85.634030,1000000
+Oracle19c,50M,LOG_2025_50M,Q15,Combinado: LOG_TIPO='Download' + Origem='projudi' (Limit 1M),7,84.976917,1000000
