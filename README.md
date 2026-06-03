@@ -169,16 +169,14 @@ Os resultados observam principalmente:
 
 * Tempo de resposta das consultas
 * Escalabilidade conforme aumento do volume de dados
-* Eficiência dos índices
 * Impacto de agregações
 * Impacto de buscas textuais
-* Consumo de recursos do banco de dados
 
 ---
 
 ## Limitações
 
-Esta PoC representa um conjunto específico de cargas de trabalho baseadas em registros de auditoria.
+Esta PoC representa um conjunto específico de cargas de trabalho.
 
 Os resultados obtidos não devem ser generalizados para todos os cenários de uso de bancos relacionais ou documentais.
 
